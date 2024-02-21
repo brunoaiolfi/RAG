@@ -1,6 +1,5 @@
 import { Injectable } from '@nestjs/common';
 import { CreateEmbeddingDto } from './dto/create-embedding.dto';
-import { UpdateEmbeddingDto } from './dto/update-embedding.dto';
 import { PrismaService } from 'src/database/prisma.service';
 import { Pagination } from 'src/@types/api/get';
 import { defaultLimit, defaultPage } from '../shared/constants/api/pagination'
@@ -28,14 +27,6 @@ export class EmbeddingService {
       });
 
     return res;
-  }
-
-  findOne(id: number) {
-    return `This action returns a #${id} embedding`;
-  }
-
-  update(id: number, updateEmbeddingDto: UpdateEmbeddingDto) {
-    return `This action updates a #${id} embedding`;
   }
 
   async clearDatabase() {

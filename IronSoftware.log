@@ -176,3 +176,373 @@
 [2024-02-19 18:04:56] Document 0 has 1 references remaining (+1)
 [2024-02-19 18:04:56] In-memory object store fetching document 7e909893-079e-4ba0-8a61-19ab89508712
 [2024-02-19 18:04:56] In-memory object store fetching document 7e909893-079e-4ba0-8a61-19ab89508712
+[2024-02-20 11:24:29] ---------- Microsoft Windows NT 10.0.19045.0 (C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\IronSoftware.log) ----------
+[2024-02-20 11:24:29] Using deployment directory 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-20 11:24:29] Creating deployment candidates using root path 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-02-20 11:24:29] Creating folder deployments for win-x64
+[2024-02-20 11:24:29] Creating embedded deployments for win-x64
+[2024-02-20 11:24:29] Successfully located 'IronPdfInterop' at 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-20 11:24:29] Warning! Missing deployment configuration file for deployment 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-20 11:24:29] IronSoftware.Exceptions.IronSoftwareDeploymentConfigurationMissingException: Error while locating deployment configuration file 'Pdfium*.deployment.json' within 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+   at IronSoftware.Deployment.SmartDeploymentBase.GetDeploymentConfiguration(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.ExecuteDeploymentCommands(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.Deploy(Boolean download)
+[2024-02-20 11:24:29] Attempting to load Windows library 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-02-20 11:24:29] Attempting to load Windows library 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-02-20 11:24:29] Successfully loaded native library from 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-02-20 11:24:29] Successfully loaded 'IronPdfInterop' version '2024.1.0.143' from 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-20 11:24:29] Successfully deployed 'Pdfium' using 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-20 11:24:29] Creating new job collection resource
+[2024-02-20 11:24:29] Creating new document collection resource
+[2024-02-20 11:24:29] Successfully initialized local pdf client
+[2024-02-20 11:24:29] Initializing local Chrome client...
+[2024-02-20 11:24:29] Using deployment directory 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-20 11:24:29] Creating deployment candidates using root path 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-02-20 11:24:29] Creating folder deployments for win-x64
+[2024-02-20 11:24:29] Creating embedded deployments for win-x64
+[2024-02-20 11:24:29] Successfully located 'IronInterop' at 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-20 11:24:29] Determining deployment commands for platform 'Windows' v10.0.19045.0
+[2024-02-20 11:24:29] Using deployment instructions for 'default' v
+[2024-02-20 11:24:29] Attempting to load Windows library 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-02-20 11:24:30] Attempting to load Windows library 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-02-20 11:24:30] Successfully loaded native library from 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-02-20 11:24:30] Successfully loaded 'IronInterop' version '2024.1.0.143' from 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-20 11:24:30] Successfully deployed 'Chrome' using 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-20 11:24:30] Initializing Chrome renderer for OS Name: Windows, Identifier: win, Version: 10.0.19045.0, VersionName: , Domain: IronPdfEngineConsole, Thread: , Path: C:\Users\bruno.aiolfi\Documents\rag-project\project-rag
+[2024-02-20 11:24:30] 11:24:30 (17584): ~ Chrome renderer v2024.1.0.143~
+[2024-02-20 11:24:30] 11:24:30 (17584): register JobManager as publisher for event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-02-20 11:24:30] 11:24:30 (17584): [EventRegistry] Register event_readyToInitializeNetworkEventsDevToolsHandler for a publisher
+[2024-02-20 11:24:30] 11:24:30 (17584): IsSingleProcess: 0
+[2024-02-20 11:24:30] 11:24:30 (17584): Creating Cef proxy controller
+[2024-02-20 11:24:30] 11:24:30 (17584): Creating Cef interface
+[2024-02-20 11:24:30] 11:24:30 (17584): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-02-20 11:24:30] 11:24:30 (17584): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-02-20 11:24:30] 11:24:30 (17584): Destroying Cef proxy event handler
+[2024-02-20 11:24:30] 11:24:30 (17584): Initializing Cef proxy controller
+[2024-02-20 11:24:30] 11:24:30 (17584): Using subprocess path 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe'
+[2024-02-20 11:24:30] 11:24:30 (17584): Using framework path 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-20 11:24:30] 11:24:30 (17584): Using locales path 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales'
+[2024-02-20 11:24:30] 11:24:30 (17584): Using resources path 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-20 11:24:30] 11:24:30 (17584): Launching child process '"C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfEngineConsole.exe" --browser-subprocess-path="C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path="C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --locales-dir-path="C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --disable-features=CalculateNativeWinOcclusion,WinUseBrowserSpellChecker,BackForwardCache host=127.0.0.1 port=33350 docker_build=false keep_alive=true linux_and_docker_auto_config=false skip_initialization=false single_process=false chrome_browser_limit=30 chrome_gpu_mode=0 linux_and_docker_auto_config=true programming_language=nodejs enable_debug=false'
+[2024-02-20 11:24:30] 11:24:30 (17584): gpu_mode: '0'
+[2024-02-20 11:24:30] 11:24:30 (10088): Launching child process '"C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=gpu-process --no-sandbox --headless --locales-dir-path="C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\bruno.aiolfi\AppData\Local\Temp" /prefetch:2'
+[2024-02-20 11:24:30] 11:24:30 (10088): gpu_mode: '0'
+[2024-02-20 11:24:30] 11:24:30 (17584): Cef initialization succeeded
+[2024-02-20 11:24:30] Successfully initialized local Chrome client
+[2024-02-20 11:24:30] 11:24:30 (10088): Cef context initialized
+[2024-02-20 11:24:30] 11:24:30 (10088): Registering custom scheme for rendering raw html
+[2024-02-20 11:24:30] 11:24:30 (10088): Successfully registered custom scheme
+[2024-02-20 11:24:30] 11:24:30 (10088): Cef engine initialization complete
+[2024-02-20 11:24:30] 11:24:30 (10088): Launching child process '"C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --ignore-urlfetcher-cert-requests --no-sandbox --ignore-certificate-errors --mute-audio --ignore-certificate-errors --locales-dir-path="C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\bruno.aiolfi\AppData\Local\Temp" /prefetch:8'
+[2024-02-20 11:24:30] 11:24:30 (10088): gpu_mode: '0'
+[2024-02-20 11:24:39] 'UsageData' module is disabled
+[2024-02-20 11:24:39] Attempting to obtain value for a key 'IronPdf.LicenseKey' from settings
+[2024-02-20 11:24:39] Couldn't find key 'IronPdf.LicenseKey' in json config files: Value cannot be null. (Parameter 'path')
+[2024-02-20 11:24:39] Couldn't find key 'IronPdf.LicenseKey' in xml config files: Value cannot be null. (Parameter 'path')
+[2024-02-20 11:24:39] Warning! Error while retrieving app settings value
+[2024-02-20 11:24:39] System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.IO.Path.GetFullPath(String path)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.ReadAzureFunctionConfig(String key, Assembly context)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.TryReadFromDefaultConfigs(String key, Assembly context, String& configValue)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.Read(String key, Assembly context)
+   at IronSoftware.Licenses.LicenseManager.GetConfigValue(String key, Assembly assembly)
+[2024-02-20 11:24:39] Attempting to obtain value for a key 'IronSuite.LicenseKey' from settings
+[2024-02-20 11:24:39] Couldn't find key 'IronSuite.LicenseKey' in json config files: Value cannot be null. (Parameter 'path')
+[2024-02-20 11:24:39] Couldn't find key 'IronSuite.LicenseKey' in xml config files: Value cannot be null. (Parameter 'path')
+[2024-02-20 11:24:39] Warning! Error while retrieving app settings value
+[2024-02-20 11:24:39] System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.IO.Path.GetFullPath(String path)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.ReadAzureFunctionConfig(String key, Assembly context)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.TryReadFromDefaultConfigs(String key, Assembly context, String& configValue)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.Read(String key, Assembly context)
+   at IronSoftware.Licenses.LicenseManager.GetConfigValue(String key, Assembly assembly)
+[2024-02-20 11:24:39] Setting license key to 'AppAnalytics' module
+[2024-02-20 11:24:39] Error 0x00 while validating license key
+[2024-02-20 11:24:39] Failed to create LicenseKey, returning null. Exception occured:'Error 0x00 while validating license key'
+[2024-02-20 11:24:39] 11:24:39 (19852): PdfDocumentFactory created document 000001CE32192F30 from 777342 bytes
+[2024-02-20 11:24:39] 11:24:39 (19852): Document opened from vector
+[2024-02-20 11:24:39] 11:24:39 (19852): Storing new document 0
+[2024-02-20 11:24:39] Document 0 has 1 references remaining (+1)
+[2024-02-20 11:24:39] In-memory object store fetching document 38998fd3-2281-487b-86be-cad982d99c6c
+[2024-02-20 11:24:39] In-memory object store fetching document 38998fd3-2281-487b-86be-cad982d99c6c
+[2024-02-21 14:46:47] ---------- Microsoft Windows NT 10.0.19045.0 (C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\IronSoftware.log) ----------
+[2024-02-21 14:46:47] Using deployment directory 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-21 14:46:47] Creating deployment candidates using root path 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-02-21 14:46:47] Creating folder deployments for win-x64
+[2024-02-21 14:46:47] Creating embedded deployments for win-x64
+[2024-02-21 14:46:47] Successfully located 'IronPdfInterop' at 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-21 14:46:47] Warning! Missing deployment configuration file for deployment 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-21 14:46:47] IronSoftware.Exceptions.IronSoftwareDeploymentConfigurationMissingException: Error while locating deployment configuration file 'Pdfium*.deployment.json' within 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+   at IronSoftware.Deployment.SmartDeploymentBase.GetDeploymentConfiguration(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.ExecuteDeploymentCommands(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.Deploy(Boolean download)
+[2024-02-21 14:46:47] Attempting to load Windows library 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-02-21 14:46:47] Attempting to load Windows library 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-02-21 14:46:47] Successfully loaded native library from 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-02-21 14:46:47] Successfully loaded 'IronPdfInterop' version '2024.1.0.143' from 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-21 14:46:47] Successfully deployed 'Pdfium' using 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-21 14:46:47] Creating new job collection resource
+[2024-02-21 14:46:47] Creating new document collection resource
+[2024-02-21 14:46:47] Successfully initialized local pdf client
+[2024-02-21 14:46:47] Initializing local Chrome client...
+[2024-02-21 14:46:47] Using deployment directory 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-21 14:46:47] Creating deployment candidates using root path 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-02-21 14:46:47] Creating folder deployments for win-x64
+[2024-02-21 14:46:47] Creating embedded deployments for win-x64
+[2024-02-21 14:46:47] Successfully located 'IronInterop' at 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-21 14:46:47] Determining deployment commands for platform 'Windows' v10.0.19045.0
+[2024-02-21 14:46:47] Using deployment instructions for 'default' v
+[2024-02-21 14:46:47] Attempting to load Windows library 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-02-21 14:46:47] Attempting to load Windows library 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-02-21 14:46:47] Successfully loaded native library from 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-02-21 14:46:47] Successfully loaded 'IronInterop' version '2024.1.0.143' from 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-21 14:46:47] Successfully deployed 'Chrome' using 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-21 14:46:47] Initializing Chrome renderer for OS Name: Windows, Identifier: win, Version: 10.0.19045.0, VersionName: , Domain: IronPdfEngineConsole, Thread: , Path: C:\Users\bruno.aiolfi\Documents\rag-project\project-rag
+[2024-02-21 14:46:47] 14:46:47 (13120): ~ Chrome renderer v2024.1.0.143~
+[2024-02-21 14:46:47] 14:46:47 (13120): register JobManager as publisher for event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-02-21 14:46:47] 14:46:47 (13120): [EventRegistry] Register event_readyToInitializeNetworkEventsDevToolsHandler for a publisher
+[2024-02-21 14:46:47] 14:46:47 (13120): IsSingleProcess: 0
+[2024-02-21 14:46:47] 14:46:47 (13120): Creating Cef proxy controller
+[2024-02-21 14:46:47] 14:46:47 (13120): Creating Cef interface
+[2024-02-21 14:46:47] 14:46:47 (13120): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-02-21 14:46:47] 14:46:47 (13120): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-02-21 14:46:47] 14:46:47 (13120): Destroying Cef proxy event handler
+[2024-02-21 14:46:47] 14:46:47 (13120): Initializing Cef proxy controller
+[2024-02-21 14:46:47] 14:46:47 (13120): Using subprocess path 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe'
+[2024-02-21 14:46:47] 14:46:47 (13120): Using framework path 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-21 14:46:47] 14:46:47 (13120): Using locales path 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales'
+[2024-02-21 14:46:47] 14:46:47 (13120): Using resources path 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-21 14:46:47] 14:46:47 (13120): Launching child process '"C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfEngineConsole.exe" --browser-subprocess-path="C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path="C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --locales-dir-path="C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --disable-features=CalculateNativeWinOcclusion,WinUseBrowserSpellChecker,BackForwardCache host=127.0.0.1 port=33350 docker_build=false keep_alive=true linux_and_docker_auto_config=false skip_initialization=false single_process=false chrome_browser_limit=30 chrome_gpu_mode=0 linux_and_docker_auto_config=true programming_language=nodejs enable_debug=false'
+[2024-02-21 14:46:47] 14:46:47 (13120): gpu_mode: '0'
+[2024-02-21 14:46:48] 14:46:48 (10152): Launching child process '"C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=gpu-process --no-sandbox --headless --locales-dir-path="C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\bruno.aiolfi\AppData\Local\Temp" /prefetch:2'
+[2024-02-21 14:46:48] 14:46:48 (10152): gpu_mode: '0'
+[2024-02-21 14:46:48] 14:46:48 (13120): Cef initialization succeeded
+[2024-02-21 14:46:48] Successfully initialized local Chrome client
+[2024-02-21 14:46:48] 14:46:48 (10152): Cef context initialized
+[2024-02-21 14:46:48] 14:46:48 (10152): Registering custom scheme for rendering raw html
+[2024-02-21 14:46:48] 14:46:48 (10152): Successfully registered custom scheme
+[2024-02-21 14:46:48] 14:46:48 (10152): Cef engine initialization complete
+[2024-02-21 14:46:48] 14:46:48 (10152): Launching child process '"C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --ignore-urlfetcher-cert-requests --no-sandbox --ignore-certificate-errors --mute-audio --ignore-certificate-errors --locales-dir-path="C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\bruno.aiolfi\AppData\Local\Temp" /prefetch:8'
+[2024-02-21 14:46:48] 14:46:48 (10152): gpu_mode: '0'
+[2024-02-21 14:46:56] 'UsageData' module is disabled
+[2024-02-21 14:46:56] Attempting to obtain value for a key 'IronPdf.LicenseKey' from settings
+[2024-02-21 14:46:56] Couldn't find key 'IronPdf.LicenseKey' in json config files: Value cannot be null. (Parameter 'path')
+[2024-02-21 14:46:56] Couldn't find key 'IronPdf.LicenseKey' in xml config files: Value cannot be null. (Parameter 'path')
+[2024-02-21 14:46:56] Warning! Error while retrieving app settings value
+[2024-02-21 14:46:56] System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.IO.Path.GetFullPath(String path)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.ReadAzureFunctionConfig(String key, Assembly context)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.TryReadFromDefaultConfigs(String key, Assembly context, String& configValue)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.Read(String key, Assembly context)
+   at IronSoftware.Licenses.LicenseManager.GetConfigValue(String key, Assembly assembly)
+[2024-02-21 14:46:56] Attempting to obtain value for a key 'IronSuite.LicenseKey' from settings
+[2024-02-21 14:46:57] Couldn't find key 'IronSuite.LicenseKey' in json config files: Value cannot be null. (Parameter 'path')
+[2024-02-21 14:46:57] Couldn't find key 'IronSuite.LicenseKey' in xml config files: Value cannot be null. (Parameter 'path')
+[2024-02-21 14:46:57] Warning! Error while retrieving app settings value
+[2024-02-21 14:46:57] System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.IO.Path.GetFullPath(String path)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.ReadAzureFunctionConfig(String key, Assembly context)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.TryReadFromDefaultConfigs(String key, Assembly context, String& configValue)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.Read(String key, Assembly context)
+   at IronSoftware.Licenses.LicenseManager.GetConfigValue(String key, Assembly assembly)
+[2024-02-21 14:46:57] Setting license key to 'AppAnalytics' module
+[2024-02-21 14:46:57] Error 0x00 while validating license key
+[2024-02-21 14:46:57] Failed to create LicenseKey, returning null. Exception occured:'Error 0x00 while validating license key'
+[2024-02-21 14:46:57] 14:46:57 (19940): PdfDocumentFactory created document 000002CDA33578A0 from 777342 bytes
+[2024-02-21 14:46:57] 14:46:57 (19940): Document opened from vector
+[2024-02-21 14:46:57] 14:46:57 (19940): Storing new document 0
+[2024-02-21 14:46:57] Document 0 has 1 references remaining (+1)
+[2024-02-21 14:46:57] In-memory object store fetching document 8934a206-7440-4f75-a5f8-81a85370c792
+[2024-02-21 14:46:57] In-memory object store fetching document 8934a206-7440-4f75-a5f8-81a85370c792
+[2024-02-21 14:47:22] Error 0x01 while validating license key
+[2024-02-21 14:47:22] 14:47:22 (1876): PdfDocumentFactory created document 000002CDA3357A60 from 777342 bytes
+[2024-02-21 14:47:22] 14:47:22 (1876): Document opened from vector
+[2024-02-21 14:47:22] 14:47:22 (1876): Storing new document 1
+[2024-02-21 14:47:22] Document 1 has 1 references remaining (+1)
+[2024-02-21 14:47:22] In-memory object store fetching document 9a6b3aa5-54a7-4c01-85a3-3f8fba85e414
+[2024-02-21 14:47:22] In-memory object store fetching document 9a6b3aa5-54a7-4c01-85a3-3f8fba85e414
+[2024-02-21 14:48:04] Error 0x01 while validating license key
+[2024-02-21 14:48:04] 14:48:04 (18024): PdfDocumentFactory created document 000002CDA3357C20 from 777342 bytes
+[2024-02-21 14:48:04] 14:48:04 (18024): Document opened from vector
+[2024-02-21 14:48:04] 14:48:04 (18024): Storing new document 2
+[2024-02-21 14:48:04] Document 2 has 1 references remaining (+1)
+[2024-02-21 14:48:04] In-memory object store fetching document ca0dcdca-6390-4856-b260-515ab38c3a36
+[2024-02-21 14:48:04] In-memory object store fetching document ca0dcdca-6390-4856-b260-515ab38c3a36
+[2024-02-21 14:48:43] ---------- Microsoft Windows NT 10.0.19045.0 (C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\IronSoftware.log) ----------
+[2024-02-21 14:48:43] Using deployment directory 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-21 14:48:43] Creating deployment candidates using root path 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-02-21 14:48:43] Creating folder deployments for win-x64
+[2024-02-21 14:48:43] Creating embedded deployments for win-x64
+[2024-02-21 14:48:43] Successfully located 'IronPdfInterop' at 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-21 14:48:43] Warning! Missing deployment configuration file for deployment 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-21 14:48:43] IronSoftware.Exceptions.IronSoftwareDeploymentConfigurationMissingException: Error while locating deployment configuration file 'Pdfium*.deployment.json' within 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+   at IronSoftware.Deployment.SmartDeploymentBase.GetDeploymentConfiguration(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.ExecuteDeploymentCommands(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.Deploy(Boolean download)
+[2024-02-21 14:48:43] Attempting to load Windows library 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-02-21 14:48:43] Attempting to load Windows library 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-02-21 14:48:43] Successfully loaded native library from 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-02-21 14:48:43] Successfully loaded 'IronPdfInterop' version '2024.1.0.143' from 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-21 14:48:43] Successfully deployed 'Pdfium' using 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-21 14:48:43] Creating new job collection resource
+[2024-02-21 14:48:43] Creating new document collection resource
+[2024-02-21 14:48:43] Successfully initialized local pdf client
+[2024-02-21 14:48:43] Initializing local Chrome client...
+[2024-02-21 14:48:43] Using deployment directory 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-21 14:48:43] Creating deployment candidates using root path 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-02-21 14:48:43] Creating folder deployments for win-x64
+[2024-02-21 14:48:43] Creating embedded deployments for win-x64
+[2024-02-21 14:48:43] Successfully located 'IronInterop' at 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-21 14:48:43] Determining deployment commands for platform 'Windows' v10.0.19045.0
+[2024-02-21 14:48:43] Using deployment instructions for 'default' v
+[2024-02-21 14:48:43] Attempting to load Windows library 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-02-21 14:48:43] Attempting to load Windows library 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-02-21 14:48:43] Successfully loaded native library from 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-02-21 14:48:43] Successfully loaded 'IronInterop' version '2024.1.0.143' from 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-21 14:48:43] Successfully deployed 'Chrome' using 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-21 14:48:43] Initializing Chrome renderer for OS Name: Windows, Identifier: win, Version: 10.0.19045.0, VersionName: , Domain: IronPdfEngineConsole, Thread: , Path: C:\Users\bruno.aiolfi\Documents\rag-project\project-rag
+[2024-02-21 14:48:43] 14:48:43 (17776): ~ Chrome renderer v2024.1.0.143~
+[2024-02-21 14:48:43] 14:48:43 (17776): register JobManager as publisher for event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-02-21 14:48:43] 14:48:43 (17776): [EventRegistry] Register event_readyToInitializeNetworkEventsDevToolsHandler for a publisher
+[2024-02-21 14:48:43] 14:48:43 (17776): IsSingleProcess: 0
+[2024-02-21 14:48:43] 14:48:43 (17776): Creating Cef proxy controller
+[2024-02-21 14:48:43] 14:48:43 (17776): Creating Cef interface
+[2024-02-21 14:48:43] 14:48:43 (17776): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-02-21 14:48:43] 14:48:43 (17776): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-02-21 14:48:43] 14:48:43 (17776): Destroying Cef proxy event handler
+[2024-02-21 14:48:43] 14:48:43 (17776): Initializing Cef proxy controller
+[2024-02-21 14:48:43] 14:48:43 (17776): Using subprocess path 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe'
+[2024-02-21 14:48:43] 14:48:43 (17776): Using framework path 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-21 14:48:43] 14:48:43 (17776): Using locales path 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales'
+[2024-02-21 14:48:43] 14:48:43 (17776): Using resources path 'C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-21 14:48:43] 14:48:43 (17776): Launching child process '"C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfEngineConsole.exe" --browser-subprocess-path="C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path="C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --locales-dir-path="C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --disable-features=CalculateNativeWinOcclusion,WinUseBrowserSpellChecker,BackForwardCache host=127.0.0.1 port=33350 docker_build=false keep_alive=true linux_and_docker_auto_config=false skip_initialization=false single_process=false chrome_browser_limit=30 chrome_gpu_mode=0 linux_and_docker_auto_config=true programming_language=nodejs enable_debug=false'
+[2024-02-21 14:48:43] 14:48:43 (17776): gpu_mode: '0'
+[2024-02-21 14:48:43] 14:48:43 (17264): Launching child process '"C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=gpu-process --no-sandbox --headless --locales-dir-path="C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\bruno.aiolfi\AppData\Local\Temp" /prefetch:2'
+[2024-02-21 14:48:43] 14:48:43 (17264): gpu_mode: '0'
+[2024-02-21 14:48:43] 14:48:43 (17776): Cef initialization succeeded
+[2024-02-21 14:48:43] Successfully initialized local Chrome client
+[2024-02-21 14:48:43] 14:48:43 (17264): Cef context initialized
+[2024-02-21 14:48:43] 14:48:43 (17264): Registering custom scheme for rendering raw html
+[2024-02-21 14:48:43] 14:48:43 (17264): Successfully registered custom scheme
+[2024-02-21 14:48:43] 14:48:43 (17264): Cef engine initialization complete
+[2024-02-21 14:48:43] 14:48:43 (17264): Launching child process '"C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --ignore-urlfetcher-cert-requests --no-sandbox --ignore-certificate-errors --mute-audio --ignore-certificate-errors --locales-dir-path="C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\bruno.aiolfi\Documents\rag-project\project-rag\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\bruno.aiolfi\AppData\Local\Temp" /prefetch:8'
+[2024-02-21 14:48:43] 14:48:43 (17264): gpu_mode: '0'
+[2024-02-21 14:48:53] 'UsageData' module is disabled
+[2024-02-21 14:48:53] Attempting to obtain value for a key 'IronPdf.LicenseKey' from settings
+[2024-02-21 14:48:53] Couldn't find key 'IronPdf.LicenseKey' in json config files: Value cannot be null. (Parameter 'path')
+[2024-02-21 14:48:53] Couldn't find key 'IronPdf.LicenseKey' in xml config files: Value cannot be null. (Parameter 'path')
+[2024-02-21 14:48:53] Warning! Error while retrieving app settings value
+[2024-02-21 14:48:53] System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.IO.Path.GetFullPath(String path)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.ReadAzureFunctionConfig(String key, Assembly context)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.TryReadFromDefaultConfigs(String key, Assembly context, String& configValue)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.Read(String key, Assembly context)
+   at IronSoftware.Licenses.LicenseManager.GetConfigValue(String key, Assembly assembly)
+[2024-02-21 14:48:53] Attempting to obtain value for a key 'IronSuite.LicenseKey' from settings
+[2024-02-21 14:48:53] Couldn't find key 'IronSuite.LicenseKey' in json config files: Value cannot be null. (Parameter 'path')
+[2024-02-21 14:48:53] Couldn't find key 'IronSuite.LicenseKey' in xml config files: Value cannot be null. (Parameter 'path')
+[2024-02-21 14:48:53] Warning! Error while retrieving app settings value
+[2024-02-21 14:48:53] System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.IO.Path.GetFullPath(String path)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.ReadAzureFunctionConfig(String key, Assembly context)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.TryReadFromDefaultConfigs(String key, Assembly context, String& configValue)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.Read(String key, Assembly context)
+   at IronSoftware.Licenses.LicenseManager.GetConfigValue(String key, Assembly assembly)
+[2024-02-21 14:48:53] Setting license key to 'AppAnalytics' module
+[2024-02-21 14:48:53] Error 0x00 while validating license key
+[2024-02-21 14:48:53] Failed to create LicenseKey, returning null. Exception occured:'Error 0x00 while validating license key'
+[2024-02-21 14:48:53] 14:48:53 (6000): PdfDocumentFactory created document 0000023FC53930F0 from 777342 bytes
+[2024-02-21 14:48:53] 14:48:53 (6000): Document opened from vector
+[2024-02-21 14:48:53] 14:48:53 (6000): Storing new document 0
+[2024-02-21 14:48:53] Document 0 has 1 references remaining (+1)
+[2024-02-21 14:48:53] In-memory object store fetching document b0d013d0-6c8b-4fee-b8b2-dc045e89f20a
+[2024-02-21 14:48:53] In-memory object store fetching document b0d013d0-6c8b-4fee-b8b2-dc045e89f20a
+[2024-02-21 15:07:09] ---------- Microsoft Windows NT 10.0.19045.0 (C:\Users\bruno.aiolfi\Desktop\Nova pasta (7)\RAG\IronSoftware.log) ----------
+[2024-02-21 15:07:09] Using deployment directory 'C:\Users\bruno.aiolfi\Desktop\Nova pasta (7)\RAG\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-21 15:07:09] Creating deployment candidates using root path 'C:\Users\bruno.aiolfi\Desktop\Nova pasta (7)\RAG\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-02-21 15:07:09] Creating folder deployments for win-x64
+[2024-02-21 15:07:09] Creating embedded deployments for win-x64
+[2024-02-21 15:07:09] Successfully located 'IronPdfInterop' at 'C:\Users\bruno.aiolfi\Desktop\Nova pasta (7)\RAG\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-21 15:07:09] Warning! Missing deployment configuration file for deployment 'C:\Users\bruno.aiolfi\Desktop\Nova pasta (7)\RAG\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-21 15:07:09] IronSoftware.Exceptions.IronSoftwareDeploymentConfigurationMissingException: Error while locating deployment configuration file 'Pdfium*.deployment.json' within 'C:\Users\bruno.aiolfi\Desktop\Nova pasta (7)\RAG\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+   at IronSoftware.Deployment.SmartDeploymentBase.GetDeploymentConfiguration(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.ExecuteDeploymentCommands(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.Deploy(Boolean download)
+[2024-02-21 15:07:09] Attempting to load Windows library 'C:\Users\bruno.aiolfi\Desktop\Nova pasta (7)\RAG\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-02-21 15:07:09] Attempting to load Windows library 'C:\Users\bruno.aiolfi\Desktop\Nova pasta (7)\RAG\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-02-21 15:07:09] Successfully loaded native library from 'C:\Users\bruno.aiolfi\Desktop\Nova pasta (7)\RAG\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-02-21 15:07:09] Successfully loaded 'IronPdfInterop' version '2024.1.0.143' from 'C:\Users\bruno.aiolfi\Desktop\Nova pasta (7)\RAG\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-21 15:07:09] Successfully deployed 'Pdfium' using 'C:\Users\bruno.aiolfi\Desktop\Nova pasta (7)\RAG\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-21 15:07:09] Creating new job collection resource
+[2024-02-21 15:07:09] Creating new document collection resource
+[2024-02-21 15:07:09] Successfully initialized local pdf client
+[2024-02-21 15:07:09] Initializing local Chrome client...
+[2024-02-21 15:07:09] Using deployment directory 'C:\Users\bruno.aiolfi\Desktop\Nova pasta (7)\RAG\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-21 15:07:09] Creating deployment candidates using root path 'C:\Users\bruno.aiolfi\Desktop\Nova pasta (7)\RAG\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-02-21 15:07:09] Creating folder deployments for win-x64
+[2024-02-21 15:07:09] Creating embedded deployments for win-x64
+[2024-02-21 15:07:09] Successfully located 'IronInterop' at 'C:\Users\bruno.aiolfi\Desktop\Nova pasta (7)\RAG\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-21 15:07:09] Determining deployment commands for platform 'Windows' v10.0.19045.0
+[2024-02-21 15:07:09] Using deployment instructions for 'default' v
+[2024-02-21 15:07:09] Attempting to load Windows library 'C:\Users\bruno.aiolfi\Desktop\Nova pasta (7)\RAG\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-02-21 15:07:09] Attempting to load Windows library 'C:\Users\bruno.aiolfi\Desktop\Nova pasta (7)\RAG\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-02-21 15:07:09] Successfully loaded native library from 'C:\Users\bruno.aiolfi\Desktop\Nova pasta (7)\RAG\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-02-21 15:07:09] Successfully loaded 'IronInterop' version '2024.1.0.143' from 'C:\Users\bruno.aiolfi\Desktop\Nova pasta (7)\RAG\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-21 15:07:09] Successfully deployed 'Chrome' using 'C:\Users\bruno.aiolfi\Desktop\Nova pasta (7)\RAG\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-21 15:07:09] Initializing Chrome renderer for OS Name: Windows, Identifier: win, Version: 10.0.19045.0, VersionName: , Domain: IronPdfEngineConsole, Thread: , Path: C:\Users\bruno.aiolfi\Desktop\Nova pasta (7)\RAG
+[2024-02-21 15:07:09] 15:07:09 (9000): ~ Chrome renderer v2024.1.0.143~
+[2024-02-21 15:07:10] 15:07:10 (9000): register JobManager as publisher for event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-02-21 15:07:10] 15:07:10 (9000): [EventRegistry] Register event_readyToInitializeNetworkEventsDevToolsHandler for a publisher
+[2024-02-21 15:07:10] 15:07:10 (9000): IsSingleProcess: 0
+[2024-02-21 15:07:10] 15:07:10 (9000): Creating Cef proxy controller
+[2024-02-21 15:07:10] 15:07:10 (9000): Creating Cef interface
+[2024-02-21 15:07:10] 15:07:10 (9000): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-02-21 15:07:10] 15:07:10 (9000): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-02-21 15:07:10] 15:07:10 (9000): Destroying Cef proxy event handler
+[2024-02-21 15:07:10] 15:07:10 (9000): Initializing Cef proxy controller
+[2024-02-21 15:07:10] 15:07:10 (9000): Using subprocess path 'C:\Users\bruno.aiolfi\Desktop\Nova pasta (7)\RAG\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe'
+[2024-02-21 15:07:10] 15:07:10 (9000): Using framework path 'C:\Users\bruno.aiolfi\Desktop\Nova pasta (7)\RAG\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-21 15:07:10] 15:07:10 (9000): Using locales path 'C:\Users\bruno.aiolfi\Desktop\Nova pasta (7)\RAG\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales'
+[2024-02-21 15:07:10] 15:07:10 (9000): Using resources path 'C:\Users\bruno.aiolfi\Desktop\Nova pasta (7)\RAG\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-21 15:07:10] 15:07:10 (9000): Launching child process '"C:\Users\bruno.aiolfi\Desktop\Nova pasta (7)\RAG\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfEngineConsole.exe" --browser-subprocess-path="C:\Users\bruno.aiolfi\Desktop\Nova pasta (7)\RAG\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path="C:\Users\bruno.aiolfi\Desktop\Nova pasta (7)\RAG\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --locales-dir-path="C:\Users\bruno.aiolfi\Desktop\Nova pasta (7)\RAG\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --disable-features=CalculateNativeWinOcclusion,WinUseBrowserSpellChecker,BackForwardCache host=127.0.0.1 port=33350 docker_build=false keep_alive=true linux_and_docker_auto_config=false skip_initialization=false single_process=false chrome_browser_limit=30 chrome_gpu_mode=0 linux_and_docker_auto_config=true programming_language=nodejs enable_debug=false'
+[2024-02-21 15:07:10] 15:07:10 (9000): gpu_mode: '0'
+[2024-02-21 15:07:10] 15:07:10 (11952): Launching child process '"C:\Users\bruno.aiolfi\Desktop\Nova pasta (7)\RAG\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=gpu-process --no-sandbox --headless --locales-dir-path="C:\Users\bruno.aiolfi\Desktop\Nova pasta (7)\RAG\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\bruno.aiolfi\Desktop\Nova pasta (7)\RAG\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\bruno.aiolfi\AppData\Local\Temp" /prefetch:2'
+[2024-02-21 15:07:10] 15:07:10 (11952): gpu_mode: '0'
+[2024-02-21 15:07:10] 15:07:10 (9000): Cef initialization succeeded
+[2024-02-21 15:07:10] Successfully initialized local Chrome client
+[2024-02-21 15:07:10] 15:07:10 (11952): Cef context initialized
+[2024-02-21 15:07:10] 15:07:10 (11952): Registering custom scheme for rendering raw html
+[2024-02-21 15:07:10] 15:07:10 (11952): Successfully registered custom scheme
+[2024-02-21 15:07:10] 15:07:10 (11952): Cef engine initialization complete
+[2024-02-21 15:07:10] 15:07:10 (11952): Launching child process '"C:\Users\bruno.aiolfi\Desktop\Nova pasta (7)\RAG\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --ignore-urlfetcher-cert-requests --no-sandbox --ignore-certificate-errors --mute-audio --ignore-certificate-errors --locales-dir-path="C:\Users\bruno.aiolfi\Desktop\Nova pasta (7)\RAG\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\bruno.aiolfi\Desktop\Nova pasta (7)\RAG\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\bruno.aiolfi\AppData\Local\Temp" /prefetch:8'
+[2024-02-21 15:07:10] 15:07:10 (11952): gpu_mode: '0'
+[2024-02-21 15:07:19] 'UsageData' module is disabled
+[2024-02-21 15:07:19] Attempting to obtain value for a key 'IronPdf.LicenseKey' from settings
+[2024-02-21 15:07:19] Couldn't find key 'IronPdf.LicenseKey' in json config files: Value cannot be null. (Parameter 'path')
+[2024-02-21 15:07:19] Couldn't find key 'IronPdf.LicenseKey' in xml config files: Value cannot be null. (Parameter 'path')
+[2024-02-21 15:07:19] Warning! Error while retrieving app settings value
+[2024-02-21 15:07:19] System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.IO.Path.GetFullPath(String path)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.ReadAzureFunctionConfig(String key, Assembly context)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.TryReadFromDefaultConfigs(String key, Assembly context, String& configValue)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.Read(String key, Assembly context)
+   at IronSoftware.Licenses.LicenseManager.GetConfigValue(String key, Assembly assembly)
+[2024-02-21 15:07:19] Attempting to obtain value for a key 'IronSuite.LicenseKey' from settings
+[2024-02-21 15:07:19] Couldn't find key 'IronSuite.LicenseKey' in json config files: Value cannot be null. (Parameter 'path')
+[2024-02-21 15:07:19] Couldn't find key 'IronSuite.LicenseKey' in xml config files: Value cannot be null. (Parameter 'path')
+[2024-02-21 15:07:19] Warning! Error while retrieving app settings value
+[2024-02-21 15:07:19] System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.IO.Path.GetFullPath(String path)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.ReadAzureFunctionConfig(String key, Assembly context)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.TryReadFromDefaultConfigs(String key, Assembly context, String& configValue)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.Read(String key, Assembly context)
+   at IronSoftware.Licenses.LicenseManager.GetConfigValue(String key, Assembly assembly)
+[2024-02-21 15:07:19] Setting license key to 'AppAnalytics' module
+[2024-02-21 15:07:19] Error 0x00 while validating license key
+[2024-02-21 15:07:19] Failed to create LicenseKey, returning null. Exception occured:'Error 0x00 while validating license key'
+[2024-02-21 15:07:19] 15:07:19 (17720): PdfDocumentFactory created document 0000029A27B91E40 from 777342 bytes
+[2024-02-21 15:07:19] 15:07:19 (17720): Document opened from vector
+[2024-02-21 15:07:19] 15:07:19 (17720): Storing new document 0
+[2024-02-21 15:07:19] Document 0 has 1 references remaining (+1)
+[2024-02-21 15:07:19] In-memory object store fetching document f0f67874-c0e1-4ca0-98fd-1732d4688d5a
+[2024-02-21 15:07:19] In-memory object store fetching document f0f67874-c0e1-4ca0-98fd-1732d4688d5a
