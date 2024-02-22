@@ -19,10 +19,11 @@ model Embedding {
 }
 
 model User {
-  id       Int    @id @default(autoincrement())
-  name     String
-  email    String @unique
-  password String 
+  id        Int      @id @default(autoincrement())
+  name      String
+  email     String   @unique
+  password  String
+  apiKey    String?
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 }

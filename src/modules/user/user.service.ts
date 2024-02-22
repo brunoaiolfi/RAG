@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { CreateUserDto } from './dto/create-user.dto';
-import { UpdateUserDto } from './dto/update-user.dto';
+import { UpdateApiKeyDto, UpdateUserDto } from './dto/update-user.dto';
 import { PrismaService } from 'src/database/prisma.service';
 import { Pagination } from 'src/@types/api/get';
 import { defaultLimit, defaultPage } from 'src/shared/constants/api/pagination';
@@ -10,12 +10,13 @@ import { AuthenticateUserDto } from './dto/authenticate-user.dto';
 export class UserService {
   public constructor(private readonly prismaService: PrismaService) { }
 
-  async create({ email, name, password }: CreateUserDto) {
+  async create({ email, name, password, apiKey }: CreateUserDto) {
     const response = await this.prismaService.user.create({
       data: {
         email,
         name,
-        password
+        password,
+        apiKey
       }
     })
 
@@ -35,6 +36,19 @@ export class UserService {
 
   async getBy(where: any) {
     const user = await this.prismaService.user.findFirst({ where });
+    return user;
+  }
+
+  async updateApiKey(data: UpdateApiKeyDto) {
+    const user = await this.prismaService.user.update({
+      where: {
+        id: data.id
+      },
+      data: {
+        apiKey: data.apiKey
+      }
+    });
+
     return user;
   }
 }

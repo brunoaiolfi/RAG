@@ -1,22 +1,28 @@
-import { Body, Controller, Post } from "@nestjs/common";
+import { Body, Controller, Post, Res } from "@nestjs/common";
 import { OpenAiService } from "./openAi.service";
 import { ChatDto } from "./dto/chat.dto";
+import { Response as ExpressResponse } from "express";
 import { Response } from "../../shared/response";
 import { embeddingTextUtils } from "../../shared/utils/embeddingText";
-import { openai } from "../../shared/openai";
+import OpenAI from "openai";
 
 @Controller('openai')
 export class OpenAiController {
     constructor(private readonly openAiService: OpenAiService) { }
 
     @Post('chat')
-    public async chat(@Body() chatDto: ChatDto) {
+    public async chat(@Body() chatDto: ChatDto, @Res() res: ExpressResponse) {
         try {
+            const apiKey = res.locals.user.apiKey,
+                openai = new OpenAI({
+                    apiKey
+                });
+
             if (!chatDto.message) {
                 return new Response(false, {}, 'Message is required');
             }
 
-            const embedding = await embeddingTextUtils.embeddingText(chatDto.message);
+            const embedding = await embeddingTextUtils.embeddingText(chatDto.message, apiKey);
 
             const semanticSearchContext = await this.openAiService.semanticSearch(embedding.data);
             const context = semanticSearchContext.map((item) => item.text);

@@ -1,7 +1,7 @@
 import { CharacterTextSplitter } from "langchain/text_splitter";
-import { openai } from "../../openai";
 import { chunkSize } from "../../constants/chunk";
 import { CreateEmbeddingDto } from "src/modules/embedding/dto/create-embedding.dto";
+import OpenAI from "openai";
 
 class EmbeddingText {
 
@@ -15,7 +15,11 @@ class EmbeddingText {
         return chunks;
     }
 
-    public async embeddingText(text: string) {
+    public async embeddingText(text: string, apiKey: string) {
+        const openai = new OpenAI({
+            apiKey
+        });
+        
         const { data } = await openai.embeddings.create({
             input: text,
             model: "text-embedding-ada-002"
