@@ -1,9 +1,9 @@
 import { Controller, Get, Post, Delete, Query, UseInterceptors, UploadedFile } from '@nestjs/common';
 import { EmbeddingService } from './embedding.service';
-import { Response } from '../shared/response';
+import { Response } from '../../shared/response';
 import { FileInterceptor } from '@nestjs/platform-express';
 import { PdfDocument } from '@ironsoftware/ironpdf';
-import { embeddingTextUtils } from '../shared/utils/embeddingText';
+import { embeddingTextUtils } from '../../shared/utils/embeddingText';
 
 @Controller('embedding')
 export class EmbeddingController {

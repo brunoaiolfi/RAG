@@ -1,9 +1,9 @@
 import { Body, Controller, Post } from "@nestjs/common";
 import { OpenAiService } from "./openAi.service";
 import { ChatDto } from "./dto/chat.dto";
-import { Response } from "../shared/response";
-import { embeddingTextUtils } from "../shared/utils/embeddingText";
-import { openai } from "../shared/openai";
+import { Response } from "../../shared/response";
+import { embeddingTextUtils } from "../../shared/utils/embeddingText";
+import { openai } from "../../shared/openai";
 
 @Controller('openai')
 export class OpenAiController {

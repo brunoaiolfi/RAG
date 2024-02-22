@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { CreateEmbeddingDto } from './dto/create-embedding.dto';
 import { PrismaService } from 'src/database/prisma.service';
 import { Pagination } from 'src/@types/api/get';
-import { defaultLimit, defaultPage } from '../shared/constants/api/pagination'
+import { defaultLimit, defaultPage } from '../../shared/constants/api/pagination'
 @Injectable()
 export class EmbeddingService {
 
