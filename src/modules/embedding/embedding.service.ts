@@ -29,7 +29,7 @@ export class EmbeddingService {
     return res;
   }
 
-  async clearDatabase() {
+  async clear() {
     const res = await this.prismaService.embedding.deleteMany({});
     return res;
   }
