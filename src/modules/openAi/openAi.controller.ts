@@ -28,17 +28,23 @@ export class OpenAiController {
             const context = semanticSearchContext.map((item) => item.text);
 
             if (!context.length) {
-                return new Response(true, { response: 'Não consegui encontrar contexto nos materiais dados sobre a sua pergunta!' });
+                return new Response(true, { response: 'Não consegui encontrar contexto nos materiais dados sobre a sua pergunta!', message: chatDto.message });
             }
 
-            const response = await openai.chat.completions.create({
+            const completitions = await openai.chat.completions.create({
                 messages: [{
                     role: 'user', content: `Com base neste contexto ${context.join(" ")} responda: ${chatDto.message} e caso não encontre uma resposta exata no 
                 contexto, responda: Não consigo responder a essa pergunta` }],
                 model: "gpt-4"
             });
 
-            return new Response(true, { response: response.choices[0].message.content })
+            const response = {
+                response: completitions.choices[0].message.content,
+                message: chatDto.message,
+                context
+            }
+
+            return new Response(true, response)
         } catch (error) {
             return new Response(false, {}, error.message);
         }

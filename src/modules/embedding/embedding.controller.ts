@@ -1,14 +1,12 @@
-import { Controller, Get, Post, Delete, Query, UseInterceptors, UploadedFile, Res, Body } from '@nestjs/common';
+import { Controller, Get, Post, Delete, Query, UseInterceptors, UploadedFile, Body } from '@nestjs/common';
 import { EmbeddingService } from './embedding.service';
 import { Response } from '../../shared/response';
 import { FileInterceptor } from '@nestjs/platform-express';
 import { PdfDocument } from '@ironsoftware/ironpdf';
-import { Response as ExpressResponse } from 'express';
 import { CharacterTextSplitter } from "langchain/text_splitter";
 import { chunkSize } from 'src/shared/constants/chunk';
 import OpenAI from 'openai';
 import { CreateEmbeddingBodyDto, CreateEmbeddingDto } from './dto/create-embedding.dto';
-import { PassThrough } from 'stream';
 
 @Controller('embedding')
 export class EmbeddingController {
