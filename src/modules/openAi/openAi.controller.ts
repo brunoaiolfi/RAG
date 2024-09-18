@@ -11,36 +11,36 @@ export class OpenAiController {
     constructor(private readonly openAiService: OpenAiService) { }
 
     @Post('chat')
-    public async chat(@Body() chatDto: ChatDto) {
+    public async chat(@Body() { message }: ChatDto) {
         try {
             const apiKey = process.env.OPENAIKEY,
                 openai = new OpenAI({
                     apiKey
                 });
 
-            if (!chatDto.message) {
+            if (!message) {
                 return new Response(false, {}, 'Message is required');
             }
 
-            const embedding = await this.embeddingText(chatDto.message);
+            const embedding = await this.embeddingText(message);
 
             const semanticSearchContext = await this.openAiService.semanticSearch(embedding.data);
-            const context = semanticSearchContext.map((item) => item.text);
+            const context = semanticSearchContext.map((item) => item.text).join(" ");
 
             if (!context.length) {
-                return new Response(true, { response: 'Não consegui encontrar contexto nos materiais dados sobre a sua pergunta!', message: chatDto.message });
+                return new Response(true, { response: 'Não consegui encontrar contexto nos materiais dados sobre a sua pergunta!', message: message });
             }
 
             const completitions = await openai.chat.completions.create({
                 messages: [{
-                    role: 'user', content: `Com base neste contexto ${context.join(" ")} responda: ${chatDto.message} e caso não encontre uma resposta exata no 
+                    role: 'user', content: `Com base neste contexto ${context} responda: ${message} e caso não encontre uma resposta exata no 
                 contexto, responda: Não consigo responder a essa pergunta` }],
                 model: "gpt-4"
             });
 
             const response = {
                 response: completitions.choices[0].message.content,
-                message: chatDto.message,
+                message,
                 context
             }
 
